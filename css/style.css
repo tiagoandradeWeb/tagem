@@ -1,0 +1,66 @@
+/*--------------------------------------------------Estilo Gerais*--------------------------------------------------*/
+*{margin: 0; padding: 0; font-size: 100%; font-family:sans-serif; text-decoration: none; list-style: none; box-sizing: border-box;}
+@font-face{ font-family:hamm; src:url(../fonts/HammersmithOne-Regular);}
+img{max-width: 100%; height: auto; display: block;}
+.container{max-width: 960px; padding: 0px 10px; display: flex; margin: 0 auto;}
+.line{width: 50px; height: 1px; background:#00e0d0; margin: 30px 0px; }
+.line-two{width: 960px; height: 1px; background: #ebebeb; margin: 35px 0px;}
+h2{color:#413d4b; margin-bottom: 30px; font-weight: bold; font-size: 2em;}
+/*--------------------------------------------------Header--------------------------------------------------*/
+.header{height:670px; background-image: url(../img/banner-header.jpg); background-size: cover;}
+.content-header{flex-direction: column;}
+.topo{height: 85px; display: flex; justify-content: space-between; align-items: center; align-content: center;}
+.menu ul{display: flex; justify-content: space-between;}
+.menu li a{padding:15px; font-size: 0.7em; color:#fff; font-weight: bold;}
+.menu li:nth-child(7) a{padding-right: 0px;}
+.menu li a:hover{color:#00e0d0;}
+.content-banner{height:585px; display:flex; flex-direction: column; align-content: center; align-items:center; justify-content: center; color:#fff; text-align: center;}
+.content-banner h1{font-size: 2em;  font-family:hamm;}
+.content-banner p{font-size: 1em; line-height: 2; text-align: center; font-weight: 100; font-family:hamm;}
+.btn-principal{border: 1px solid #00e0d0; padding:15px 20px; background: none; color:#00e0d0; margin-top: 55px; font-size: 16px; font-weight:bold;}
+/*-----------------------------------------------------------Section About-----------------------------------------------------------*/
+.content-about{padding: 65px 0px;}
+.about-text{padding: 0px 100px;}
+.about-text p{color:#413d4b; line-height: 2; margin-bottom: 30px;}
+/*-----------------------------------------------------------Depoimentos-----------------------------------------------------------*/
+.depoiments{height: 500px; background-image: url(../img/banner-depo.png);}
+.depoiments img{width: 36px;}
+.depoiments-content{flex-direction: column; justify-content: center; align-items: center; height: 500px;}
+.cx-text{width: 80%; text-align: center; color:#fff;}
+.depoiments-content p{line-height: 2; margin-top: 30px;}
+.cx-text h3{font-weight: 700; margin: 60px 0px 10px 0px;}
+.cx-text h4{font-weight:lighter;}
+/*-----------------------------------------------------------Especialidades-----------------------------------------------------------*/
+.expertise{flex-direction: column; justify-content: center; align-items: center; padding: 100px 0px;}
+.expertise p{color:#413d4b;}
+.expertise-content{display: flex; justify-content: center; align-items: center; text-align: center;}
+.exper-item{padding: 30px; display: flex; flex-direction: column; justify-content: center; align-content: center; align-items: center;}
+.exper-item img{width: auto;}
+.exper-item h3 {color:#413d4b; font-weight: bold; margin: 25px 0px;}
+.exper-item p{line-height: 1.8; color:#413d4b; font-size: 0.9em}
+/*-----------------------------------------------------------Nosso Time-----------------------------------------------------------*/
+.our-team{ background-image: url(../img/bg-team.png); background-size: cover;}
+.team-content{flex-direction: column; justify-content: center; align-items:center; padding: 70px 0px;}
+.team-content h2, .team-content p{color:#fff; margin-bottom: 15px;}
+.team-article{margin-top: 55px; display: flex; margin-bottom: 70px;}
+.equip{text-align: center; border: 2px solid #78778b; margin-right: 20px;}
+.equip img{margin-bottom: 20px;}
+.equip h3{color: #fff;}
+.equip p{font-weight: lighter; margin-top: 10px; margin-bottom: 20px; font-size: 1em;}
+.team-content a{color:#06b9b2; border: 1px solid #06b9b2;padding: 15px 22px; font-weight: bold;}
+/*-----------------------------------------------------------Nossos Trabalhos-----------------------------------------------------------*/
+.works{padding: 66px 0px; text-align: center;}
+.works a{color:#626262;}
+.works-content{justify-content: space-between;}
+.box-img{width: 100%;}
+.our-works{display: flex;}
+.load-more{margin-top: 70px; border: 1px solid #06b9b2;padding: 15px 22px; font-weight: bold; background: none;color:#06b9b2; cursor: pointer;}
+/*-----------------------------------------------------------footer-----------------------------------------------------------*/
+.footer{background-image: url(../img/bg-footer.png); background-size: cover; padding: 70px 0px;}
+.footer-content{color:#fff; justify-content: space-around;}
+.footer-content h3{margin-bottom: 10px;}
+.footer-content p{margin-bottom: 10px; font-size: 0.8em;}
+.form-footer input[type=text]{ padding: 10px 30px; background: none; border: 1px solid #fff; color: #fff;}
+.form-footer button{padding: 11px; border: none; background: rgba(255,255,255,0.4); cursor: pointer; color:#fff;}
+.cop{text-align: center; margin-top: 30px; color:#fff; font-size: 0.8em;}
+
